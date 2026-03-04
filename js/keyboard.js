@@ -1,4 +1,4 @@
-document.addEventListener("keydown", (e)=>{
+document.addEventListener("keydown",(e)=>{
 
     keys.forEach(key=>{
 
@@ -13,7 +13,7 @@ document.addEventListener("keydown", (e)=>{
 
 })
 
-document.addEventListener("keyup", (e)=>{
+document.addEventListener("keyup",(e)=>{
 
     keys.forEach(key=>{
 
