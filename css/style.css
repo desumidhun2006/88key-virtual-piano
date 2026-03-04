@@ -1,3 +1,16 @@
+body{
+    text-align:center;
+    font-family:Arial;
+    background:#111;
+    color:white;
+}
+
+#piano{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+}
+
 .key{
     width:60px;
     height:200px;
@@ -9,7 +22,12 @@
     justify-content:space-between;
     align-items:center;
     padding:10px;
-    font-weight:bold;
+    cursor:pointer;
+}
+
+.key.active{
+    background:#ddd;
+    transform:scale(0.97);
 }
 
 .note{
@@ -19,9 +37,4 @@
 .kbd{
     font-size:18px;
     color:#444;
-}
-
-.key.active{
-    background:#ddd;
-    transform:scale(0.97);
 }
