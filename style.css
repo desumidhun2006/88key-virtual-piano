@@ -1,0 +1,26 @@
+body{
+    text-align:center;
+    font-family:Arial;
+    background:#111;
+    color:white;
+}
+
+.piano{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+}
+
+.key{
+    width:60px;
+    height:200px;
+    background:white;
+    border:1px solid black;
+    margin:2px;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    font-weight:bold;
+    padding-bottom:10px;
+    cursor:pointer;
+}
