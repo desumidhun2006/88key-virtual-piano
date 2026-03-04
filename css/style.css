@@ -23,6 +23,7 @@ body{
     align-items:center;
     padding:10px;
     cursor:pointer;
+    color:black;
 }
 
 .key.active{
@@ -32,9 +33,12 @@ body{
 
 .note{
     font-size:14px;
+    color:black;
+    font-weight:bold;
 }
 
 .kbd{
     font-size:18px;
     color:#444;
+    font-weight:bold;
 }
